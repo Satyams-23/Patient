@@ -3,7 +3,7 @@ import video from '../assets/video.mp4'
 const Video = () => {
   return (
     <div>
-      <iframe className="w-full aspect-video " allow="autoplay" autoplay muted loop src={video}>hi</iframe>
+<video className="w-full aspect-video" autoPlay muted loop controls={false} src={video} allow="autoplay; fullscreen; encrypted-media"></video>
     </div>
   )
 }
